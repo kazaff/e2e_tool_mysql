@@ -1,0 +1,23 @@
+{
+  "name": "e2e_test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "start.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "setup": "node setup.js",
+    "backup": "node backup.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://e.coding.net/kazaff/wconnect-neo/e2e_test.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "command-line-args": "^5.2.1",
+    "insert-line": "^1.1.0",
+    "mysql-import": "^5.0.21",
+    "mysqldump": "^3.2.0"
+  }
+}
